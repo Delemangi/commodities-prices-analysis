@@ -1,0 +1,4 @@
+pandas
+transformers
+sentencepiece
+protobuf==3.20.*

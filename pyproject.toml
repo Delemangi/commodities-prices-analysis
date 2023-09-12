@@ -1,0 +1,27 @@
+[tool.mypy]
+strict = true
+
+[tool.ruff]
+select = [
+    # pyflakes
+    "F",
+    # pycodestyle
+    "E",
+    "W",
+    # flake8-2020
+    "YTT",
+    # flake8-bugbear
+    "B",
+    # flake8-quotes
+    "Q",
+    # pylint
+    "PLE",
+    "PLR",
+    "PLW",
+]
+ignore = ["PLR2004", "PLR0913"]
+line-length = 300
+target-version = "py310"
+
+[tool.black]
+line-length = 300
